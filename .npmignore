@@ -1,0 +1,55 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# The angular components must have their full files included.
+# *.ts
+# !*.d.ts
+
+# compiled output
+**/dist
+**/tmp
+**/out-tsc
+
+# dependencies
+**/node_modules
+/bower_components
+**/platforms
+#**/hooks
+
+# IDEs and editors
+/.idea
+/.vscode
+.editorconfig
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+.gitignore
+
+# e2e
+**/e2e/*.js
+**/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+
+build-ns
+build-web
+
+
+references.d.ts
+package-lock.json
+tslint.json
+tsconfig.json
+
+publish.sh
