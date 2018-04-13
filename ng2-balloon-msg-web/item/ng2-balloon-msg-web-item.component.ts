@@ -9,7 +9,7 @@ import {
 } from "@angular/core";
 import {Router} from "@angular/router";
 import {Ng2BalloonMsgCommonItemComponent} from "@synerty/ng2-balloon-msg/ng2-balloon-msg/common/ng2-balloon-msg-common-item.component";
-import $ from "jquery";
+let $:any;
 
 @Component({
     selector: 'ng2-balloon-msg-item',
