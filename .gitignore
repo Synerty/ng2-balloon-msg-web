@@ -4,6 +4,9 @@
 **/dist
 **/tmp
 **/out-tsc
+dist.tgz
+
+
 
 # dependencies
 **/node_modules
