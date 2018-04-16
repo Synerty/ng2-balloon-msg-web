@@ -10,8 +10,8 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
-    "typeRoots": [
-      "build-web/node_modules/@types"
+    "types": [
+      "jquery"
     ],
     "lib": [
       "es2016",
