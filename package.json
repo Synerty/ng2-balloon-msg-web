@@ -1,6 +1,6 @@
 {
   "name": "@synerty/ng2-balloon-msg-web",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "Show balloon messages to users in Browsers",
   "main": "index.js",
   "repository": {
