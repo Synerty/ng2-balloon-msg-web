@@ -1,12 +1,14 @@
 import {
     AfterViewInit,
-    animate,
     Component,
+} from "@angular/core";
+import {
+    animate,
     state,
     style,
     transition,
     trigger
-} from "@angular/core";
+} from "@angular/animations";
 import {Router} from "@angular/router";
 import {Ng2BalloonMsgCommonItemComponent} from "@synerty/ng2-balloon-msg";
 import "jquery";
